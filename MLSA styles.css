@@ -1,0 +1,226 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 0%;
+  background-color: #f4f4f4;
+
+header {
+  background: #f4f4f4;
+  color: #ff6699;
+  style="color:pink;"
+  padding: 1em 0;
+  width: 120%;
+}
+
+nav {
+  display: flex;
+  background-color: #f4f4f4;
+  color: #ff6699;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 25px 100px 75px;
+}
+
+.logo img {
+  height: 50px;
+margin-inline-end: 3cm;
+
+
+}
+
+Mlsa logo{
+  margin-right: 20%;
+  margin-bottom: 25%;
+  margin-top: 30%;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 3em;
+  background-color: #f4f4f4;
+}
+
+.nav-links a {
+  color: #ff6699;
+  text-decoration: none;
+}
+
+.search-bar input {
+  padding: 1em;
+  border-radius: 10px;
+  border-color: #ff6699;
+  box-shadow: #ff6699;
+  border: 1px solid pink;
+  margin-inline-start: 3cm;
+  background-color: #ff6699;
+  text-decoration-color: #f4f4f4;
+
+}
+.search-bar{
+  margin-right: 10%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  background: url("MLSAlogo.jpeg") no-repeat center center/cover;
+  color: black;
+  height: 100vh;
+  margin-bottom: 5%;
+}
+
+.hero-content {
+  max-width: 50%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+  
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  color: #000000;
+}
+
+.hero-content .highlight {
+  color: #990099;
+}
+
+.hero-image img{
+  margin-bottom: 250px; 
+  margin-right: 60px;
+}
+
+button {
+  padding: 0.5em 2em;
+  background: #ff6699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: math bold;
+  margin-top: 5%;
+  
+}
+
+button:hover {
+  background: #990099;
+}
+
+#events,
+#services,
+#team,
+#news,
+#contact {
+  padding: 2em;
+  text-align: center;
+}
+
+.events-gallery,
+.services-gallery,
+.team-gallery,
+.news-gallery {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event img{
+  width:100%;
+  height: auto;
+}
+
+.service img{
+  width: 50px;%;
+  height: auto;
+}
+
+.news-item img{
+  width: 90%;
+  height: auto;
+}
+
+.event,
+.service,
+.team-member,
+.news-item {
+  border: 1px solid #ccc;
+  padding: 1em;
+  text-align: center;
+  border-radius: 5px;
+  width: calc(33.333% - 2em);
+  box-sizing: border-box;
+  
+}
+
+.service-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.service-description p {
+  background: #990099;
+  color: #f4f4f4;
+  padding: 1em;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.service-description img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 300px;
+  flex: 1;
+}
+
+.contact-container {
+  display: flex;
+  gap: 2em;
+  color: #f4f4f4;
+  background-color: #990099;
+  border-radius: 10px;
+  padding-top: 3%;
+  padding-right: 3%;
+}
+
+.contact-info {
+  flex: 1;
+  border: 1px solid #990099;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contact-form input,
+.contact-form button {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background: #ff6699;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: pink;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/img/mlsa_logo.jpeg" alt="MLSAlogo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1><span class="highlight">Welcome to</span> MLSA-UOK</h1>
+        <p>
+          Welcome to MLSA UOK! We're excited to have you join our community
+          dedicated to learning, sharing, and growing. Let's achieve great
+          things together!.
+        </p>
+        <button onclick="scrollToSection('about')">MORE DETAILS</button>
+      </div>
+      <div class="hero-image">
+        <img src="/img/mlsa_logo.jpeg" alt="Mlsa logo" />
+      </div>
+    </section>
+
+    <section id="events">
+      <h2>Our Top Events</h2>
+      <div class="events-gallery">
+        <div class="event">
+          <img src="/img/event1.jpeg" alt="Event 1" />
+          <p>Event 1</p>
+        </div>
+        <div class="event">
+          <img src="/img/event2.jpeg" alt="Event 2" />
+          <p>Event 2</p>
+        </div>
+        <div class="event">
+          <img src="/img/event3.jpeg" alt="Event 3" />
+          <p>Event 3</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services-gallery">
+        <div class="service">
+          <img src="/img/service1.jpeg" alt="Service 1" />
+          <p>Instagram</p>
+        </div>
+        <div class="service">
+          <img src="/img/service2.jpeg" alt="Service 2" />
+          <p>Linkedin</p>
+        </div>
+        <div class="service">
+          <img src="/img/service3.jpeg" alt="Service 3" />
+          <p>Twitter</p>
+        </div>
+        <div class="service">
+          <img src="/img/service5.jpg" alt="Service 4" />
+          <p>Microsoft</p>
+        </div>
+        <div class="service">
+          <img src="/img/service4.jpg" alt="Service 5" />
+          <p>Facebook</p>
+        </div>
+      </div>
+      <div class="service-description">
+        <p>
+          "Empowering students with cutting-edge skills, fostering innovation,
+          and building a collaborative community at MLSA-UOK"
+        </p>
+        <img src="/img/service-image.jpg" alt="Service Image" />
+      </div>
+    </section>
+
+    <section id="team">
+      <h2>Our Expert Team</h2>
+      <div class="team-gallery">
+        <div class="team-member">
+          <img src="/img/member3.jpg" alt="Team Member 1" />
+          <p>Kiran Amin</p>
+          <p>Operation Director</p>
+        </div>
+        <div class="team-member">
+          <img src="/img/member4.jpg" alt="Team Member 2" />
+          <p>Hamna Nadeem</p>
+          <p>Content Director</p>
+        </div>
+        <div class="team-member">
+          <img src="/img/member6.jpg" alt="Team Member 3" />
+          <p>M.Sohaib</p>
+          <p>Creative Director</p>
+        </div>
+        <div class="team-member">
+          <img src="/img/member2.jpg" alt="Team Member 4" />
+          <p>Huzaifa Tanzeel</p>
+          <p>Outreach Director</p>
+        </div>
+        <div class="team-member">
+          <img src="/img/member5.jpg" alt="Team Member 5" />
+          <p>Areesha Siddiqui</p>
+          <p>Marketing Director</p>
+        </div>
+        <div class="team-member">
+          <img src="/img/member1.jpg" alt="Team Member 6" />
+          <p>Haroon Abbasi</p>
+          <p>Technical Director</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>Our Latest News</h2>
+      <div class="news-gallery">
+        <div class="news-item">
+          <img src="img/news1.jpg" alt="News 1" />
+        </div>
+        <div class="news-item">
+          <img src="img/news2.jpg" alt="News 2" />
+        </div>
+        <div class="news-item">
+          <img src="img/news1.jpg" alt="News 3" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h1>About Us</h1>
+          <p>Email: mlsakhiofficial@outlook.com</p>
+          <p>Facebook: MLSA-University of Karachi</p>
+          <p>Instagram: mlsauok</p>
+          <p>
+            Linkedin: Microsoft Learn Student Ambassadors-University of Karachi
+          </p>
+        </div>
+        <div class="contact-form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="text"
+            id="contact"
+            name="contact"
+            placeholder="Your Contact No"
+            required
+          />
+          <button type="submit" onclick="submitForm(event)">
+            Send Message
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
