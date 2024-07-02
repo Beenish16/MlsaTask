@@ -14,4 +14,4 @@ How to Run:
 To view the web landing page, simply visit the CodeSandbox project link provided in the repository.
 
 Contributors:
-Your Name - Beenish Riaz
+ Beenish Riaz
