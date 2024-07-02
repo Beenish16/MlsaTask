@@ -13,5 +13,5 @@ This project showcases the collaborative efforts of MLSA members at UOK in creat
 How to Run:
 To view the web landing page, simply visit the CodeSandbox project link provided in the repository.
 
-Contributors:
+Contributor:
  Beenish Riaz
